@@ -1,0 +1,75 @@
+{
+    "proyecto": "TI-Metrics",
+    "resumen": {
+        "registros_csv": 8,
+        "registros_json": 4,
+        "registros_invalidos": 0,
+        "registros_duplicados": 1,
+        "eventos_unicos": 11
+    },
+    "metricas": {
+        "total_errores_500": 5,
+        "porcentaje_errores_500": 45.45,
+        "ips_criticas": [
+            {
+                "ip": "8.8.8.8",
+                "errores_500": 2
+            },
+            {
+                "ip": "9.9.9.9",
+                "errores_500": 2
+            },
+            {
+                "ip": "1.1.1.1",
+                "errores_500": 1
+            }
+        ]
+    },
+    "datos_geograficos": [
+        {
+            "ip": "1.1.1.1",
+            "pais": "Australia",
+            "region": "Queensland",
+            "ciudad": "South Brisbane",
+            "latitud": -27.4766,
+            "longitud": 153.0166,
+            "estado": "success"
+        },
+        {
+            "ip": "208.67.222.222",
+            "pais": "United States",
+            "region": "California",
+            "ciudad": "San Jose",
+            "latitud": 37.4084,
+            "longitud": -121.954,
+            "estado": "success"
+        },
+        {
+            "ip": "8.8.4.4",
+            "pais": "United States",
+            "region": "Virginia",
+            "ciudad": "Ashburn",
+            "latitud": 39.03,
+            "longitud": -77.5,
+            "estado": "success"
+        },
+        {
+            "ip": "8.8.8.8",
+            "pais": "United States",
+            "region": "Virginia",
+            "ciudad": "Ashburn",
+            "latitud": 39.03,
+            "longitud": -77.5,
+            "estado": "success"
+        },
+        {
+            "ip": "9.9.9.9",
+            "pais": "United States",
+            "region": "California",
+            "ciudad": "Berkeley",
+            "latitud": 37.8806,
+            "longitud": -122.268,
+            "estado": "success"
+        }
+    ]
+}
