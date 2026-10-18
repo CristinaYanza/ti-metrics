@@ -2,7 +2,7 @@ import requests
 import time
 
 def consultar_ip(ip):
-
+    """Consulta la información geográfica aproximada de una IP."""
     url = f"http://ip-api.com/json/{ip}"
 
     parametros = {
