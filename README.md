@@ -58,10 +58,12 @@ ti-metrics/
 │   │   ├── __init__.py
 │   │   ├── csv_parser.py
 │   │   └── json_parser.py
-│   └── services/
-│       ├── __init__.py
-│       ├── geo_service.py
-│       └── report_service.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── geo_service.py
+│   │   └── report_service.py
+│   └── utils/
+│       └── __init__.py
 ├── tests/
 │   └── __init__.py
 ├── PROMPTS.md
