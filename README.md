@@ -1,18 +1,18 @@
 # TI-Metrics: Engine de Analítica de Logs
 
-Asignatura: Programación II  
-Estudiante: Jennyfer Yanza  
-Carrera: Ingeniería en Tecnologías de la Información
+**Asignatura:** Programación II  
+**Estudiante:** Jennyfer Yanza  
+**Carrera:** Ingeniería en Tecnologías de la Información
 
 ## Cuadro de Logros y Badges
 
 | Badge | Estado | Hito Asociado |
 | :--- | :---: | :--- |
-| Data Wrangler | ![Data Wrangler](https://img.shields.io/badge/Data_Wrangler-En_progreso-orange?style=for-the-badge&logo=python) | Hito 1: Persistencia y APIs |
+| Data Wrangler | ![Data Wrangler](https://img.shields.io/badge/Data_Wrangler-Bloqueado-inactive?style=for-the-badge&logo=python) | Hito 1: Persistencia y APIs |
 | OOP Architect | ![OOP Architect](https://img.shields.io/badge/OOP_Architect-Bloqueado-inactive?style=for-the-badge&logo=diagrams.net) | Hito 2: Arquitectura POO |
 | PyTest Guardian | ![PyTest Guardian](https://img.shields.io/badge/PyTest_Guardian-Bloqueado-inactive?style=for-the-badge&logo=pytest) | Hito 3: Cobertura superior al 80 % |
-| AI Auditor | ![AI Auditor](https://img.shields.io/badge/AI_Auditor-En_progreso-orange?style=for-the-badge&logo=openai) | Hito 3: PROMPTS.md y TDD |
-| Git Flow Master | ![Git Flow Master](https://img.shields.io/badge/Git_Flow_Master-En_progreso-orange?style=for-the-badge&logo=github) | Transversal: Commits semánticos |
+| AI Auditor | ![AI Auditor](https://img.shields.io/badge/AI_Auditor-Bloqueado-inactive?style=for-the-badge&logo=openai) | Hito 3: PROMPTS.md y TDD |
+| Git Flow Master | ![Git Flow Master](https://img.shields.io/badge/Git_Flow_Master-Bloqueado-inactive?style=for-the-badge&logo=github) | Transversal: Commits semánticos |
 
 ## 1. Descripción del proyecto
 
@@ -35,11 +35,12 @@ También consulta información geográfica aproximada de direcciones IP mediante
 
 - Python 3
 - Archivos CSV y JSON
-- Biblioteca requests
-- collections.Counter
+- Biblioteca `requests`
+- `collections.Counter`
 - API IP-API
 - Git y GitHub
 - PyCharm
+- Pytest (para las pruebas automatizadas que se incorporen)
 
 ## 4. Estructura del proyecto
 
@@ -61,6 +62,8 @@ ti-metrics/
 │       ├── __init__.py
 │       ├── geo_service.py
 │       └── report_service.py
+├── tests/
+│   └── __init__.py
 ├── PROMPTS.md
 ├── README.md
 ├── requirements.txt
@@ -97,19 +100,19 @@ En una ejecución de prueba se obtuvieron los siguientes resultados:
 
 Estos resultados corresponden a los archivos procesados durante esa ejecución. Los valores pueden cambiar si se modifican los datos de entrada.
 
-El reporte se guarda en reports/summary.json.
+El reporte se guarda en `reports/summary.json`.
 
 ## 7. API utilizada
 
 El proyecto utiliza IP-API para consultar información geográfica aproximada de las direcciones IP.
 
-Página del servicio: http://ip-api.com/
+Página del servicio: [http://ip-api.com/](http://ip-api.com/)
 
 La disponibilidad de las consultas depende del servicio externo. La ubicación obtenida es aproximada.
 
 ## 8. Bitácora de inteligencia artificial
 
-El archivo PROMPTS.md documenta el uso de herramientas de inteligencia artificial durante el desarrollo. La bitácora debe reflejar las consultas realizadas, las sugerencias recibidas y las comprobaciones efectuadas sobre el código.
+El archivo `PROMPTS.md` documenta el uso de herramientas de inteligencia artificial durante el desarrollo. La bitácora debe reflejar las consultas realizadas, las sugerencias recibidas y las comprobaciones efectuadas sobre el código.
 
 ## 9. Control de versiones
 
@@ -117,13 +120,13 @@ El proyecto utiliza Git para registrar los cambios y GitHub para mantener el rep
 
 Los commits siguen los prefijos semánticos establecidos en la guía de Programación II:
 
-- feat: agregar funcionalidades.
-- fix: corregir errores.
-- refactor: reorganizar el código sin cambiar su comportamiento.
-- docs: actualizar documentación.
-- test: agregar o modificar pruebas.
+- `feat:` agregar funcionalidades.
+- `fix:` corregir errores.
+- `refactor:` reorganizar el código sin cambiar su comportamiento.
+- `docs:` actualizar documentación.
+- `test:` agregar o modificar pruebas.
 
-Repositorio del proyecto: https://github.com/CristinaYanza/ti-metrics
+Repositorio del proyecto: [CristinaYanza/ti-metrics](https://github.com/CristinaYanza/ti-metrics)
 
 ## 10. Estado del proyecto
 
